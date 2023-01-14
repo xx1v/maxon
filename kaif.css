@@ -1,0 +1,224 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tg:hover {
+    text-decoration: underline;
+    background-color:rgba(32, 197, 226, 0.288);
+}
+
+.tg {
+    padding: 8px;
+    width: 40px; 
+    height: 40px;
+}
+
+.vk:hover {
+    text-decoration: underline;
+    background-color:rgba(0, 4, 245, 0.288);
+    
+}
+
+.vk {
+    padding: 8px;
+    width: 40px; 
+    height: 40px;
+}
+
+.yt:hover {
+    text-decoration: underline;
+    background-color:rgba(226, 32, 32, 0.288);
+}
+
+.yt {
+    padding: 8px;
+    width: 40px; 
+    height: 40px;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ddd;
+    margin: 0;
+    transition: 1s;
+}
+
+.info {
+    display: flex;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.name {
+    margin: 10px;
+    /* border: 1px solid white;
+    background-color: white; */
+    border-radius: 15px;
+    text-align: left;
+}
+
+.name1 {
+    margin-bottom: 5px ;
+    padding: 5px 10px;
+}
+
+.photo {
+    margin: 10px;
+    max-width: 200px;
+    border-radius: 45px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.vtoroe {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(224, 153, 153, 0.527);
+    background-color: rgba(224, 153, 153, 0.137);
+    border-radius: 15px;
+}
+
+.vtoroe h3 {
+    margin: 10px;
+}
+
+.vtoroe:hover {
+    background-color: rgba(224, 153, 153, 0.527);
+    transition: 1s;
+}
+
+.trete {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(158, 153, 224, 0.527);
+    background-color: rgba(158, 153, 224, 0.137);
+    border-radius: 15px;
+}
+
+.trete h3 {
+    margin: 10px
+}
+
+.trete:hover {
+    background-color: rgba(158, 153, 224, 0.527);
+    transition: 1s;
+}
+
+.chetvertoe {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(153, 224, 168, 0.527);
+    background-color: rgba(153, 224, 168, 0.151);
+    border-radius: 15px;
+}
+
+.chetvertoe h3 {
+    margin: 10px;
+}
+
+.chetvertoe:hover {
+    background-color: rgba(153, 224, 168, 0.527);
+    transition: 1s;
+}
+
+.haha {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 0, 0, 0.37);
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    transition: 1s;
+    padding-top: 10px;
+    margin-left: 5px;
+    box-shadow: 0.2em 0.2em 10px rgba(122,122,122,0.5);
+}
+
+.haha:hover {
+    transition: 1s;
+    background-color: rgba(255, 0, 0, 0.651) ;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50% - 20px); */
+}
+  
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+  
+@media (max-width: 650px) {
+    .form-row {
+      display: block;
+    }
+  
+    .form-row .form-group {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+}
+  
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #28292b;
+}
+  
+.form-group:hover {
+    background-color: white;
+    transition: .5s;
+}
+
+.form-group {
+    border-radius: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    /* border-bottom: 1px solid #ccc; */
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 15px;
+}
+
+.btn {
+    background: rgba(17, 17, 17, 0.514);
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: #111;
+}
+
+  
